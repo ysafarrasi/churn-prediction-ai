@@ -28,13 +28,15 @@ Fitur penting mencakup informasi demografis, saldo, dan aktivitas pelanggan. Tar
 
 ## 🚀 Cara Menjalankan
 1. Install dependensi:
+   ```
    pip install -r requirements.txt
+   ```
 2. Jalankan skrip:
+   ```
    python churn_prediction.py
-
+   ```
 
 Model akan dilatih dan dievaluasi menggunakan:
-
 ✅ Stratified K-Fold Cross Validation  
 ✅ Metode evaluasi: Akurasi, Presisi, Recall  
 ✅ Visualisasi Confusion Matrix  
@@ -43,5 +45,3 @@ Model akan dilatih dan dievaluasi menggunakan:
 - Membangun model prediksi churn yang akurat.
 - Membandingkan kinerja berbagai algoritma klasifikasi.
 - Menjadi bagian dari portofolio AI & Data Science.
-
----
