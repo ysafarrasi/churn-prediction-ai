@@ -33,7 +33,8 @@ Fitur penting mencakup informasi demografis, saldo, dan aktivitas pelanggan. Tar
    python churn_prediction.py
 
 
-## Model akan dilatih dan dievaluasi menggunakan:
+Model akan dilatih dan dievaluasi menggunakan:
+
 ✅ Stratified K-Fold Cross Validation  
 ✅ Metode evaluasi: Akurasi, Presisi, Recall  
 ✅ Visualisasi Confusion Matrix  
