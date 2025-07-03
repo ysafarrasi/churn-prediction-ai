@@ -1,40 +1,46 @@
-# Churn Prediction - AI & Data Science Project
+# Churn Prediction with Machine Learning
 
-Project ini bertujuan memprediksi churn pelanggan (keluar/tidaknya pelanggan) menggunakan berbagai algoritma Machine Learning.
+Prediksi churn pelanggan menggunakan beberapa algoritma Machine Learning sebagai bagian dari studi kasus Data Science.
 
-## Algoritma yang Digunakan:
-✅ Logistic Regression  
-✅ Random Forest  
-✅ Gradient Boosting  
-✅ K-Nearest Neighbors (KNN)  
-✅ Support Vector Machine (SVM)  
-✅ Neural Network  
-✅ Naive Bayes  
+## 📌 Deskripsi Proyek
+Proyek ini bertujuan mengidentifikasi pelanggan yang berpotensi keluar (churn) dari sebuah institusi keuangan menggunakan dataset *Churn_Modelling*. Berbagai algoritma dikembangkan dan dibandingkan untuk mendapatkan model terbaik.
 
-## Dataset:
-Dataset diunduh dari Google Drive:
-https://drive.google.com/uc?export=download&id=1-hU2LbBBbip_9bdxko6Z6RrRrsBt90IC
+## 🔍 Model yang Digunakan
+- Logistic Regression
+- Random Forest Classifier
+- Gradient Boosting Classifier
+- K-Nearest Neighbors (KNN)
+- Support Vector Machine (SVM)
+- Neural Network (MLP)
+- Naive Bayes Classifier
 
-## Struktur Project:
-├── churn_prediction.py # Skrip utama
-├── README.md # Dokumentasi project
-├── requirements.txt # Daftar library
+## 📊 Dataset
+Dataset publik yang digunakan dapat diunduh melalui:
+[Download Dataset - Google Drive](https://drive.google.com/uc?export=download&id=1-hU2LbBBbip_9bdxko6Z6RrRrsBt90IC)
 
-## Library yang Dibutuhkan:
-- pandas
-- numpy
+Fitur penting mencakup informasi demografis, saldo, dan aktivitas pelanggan. Target variabel adalah `Exited` (1 = churn, 0 = tetap).
+
+## 🛠️ Teknologi & Library
+- Python 3.x
+- pandas, numpy
 - scikit-learn
-- seaborn
-- matplotlib
+- matplotlib, seaborn
 
-## Cara Menjalankan:
-1. Install library:
+## 🚀 Cara Menjalankan
+1. Install dependensi:
    pip install -r requirements.txt
-2. Jalankan:
+2. Jalankan skrip:
    python churn_prediction.py
-3. File `requirements.txt`
-   pandas
-   numpy
-   scikit-learn
-   matplotlib
-   seaborn
+
+
+Model akan dilatih dan dievaluasi menggunakan:
+✅ Stratified K-Fold Cross Validation  
+✅ Metode evaluasi: Akurasi, Presisi, Recall  
+✅ Visualisasi Confusion Matrix  
+
+## 🎯 Tujuan
+- Membangun model prediksi churn yang akurat.
+- Membandingkan kinerja berbagai algoritma klasifikasi.
+- Menjadi bagian dari portofolio AI & Data Science.
+
+---
